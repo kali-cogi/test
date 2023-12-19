@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {background-color: rgb(112, 150, 255);}
+            
+            #conteneur {
+                display: flex;
+                flex-flow: row nowrap;
+                margin: 0; padding: 0;
+            }
+            #titre {position: fixed;
+                font-family:Arial, Helvetica, sans-serif;
+                font-size: 4em;
+            background-color: rgb(196, 170, 255);
+            color: rgb(112, 150, 255);
+            margin: 0; padding: 0;
+            }
+            
+            #all_images {
+
+            }
+
+
+           #images_horizontales {display: flex;
+                display: flex;
+                flex-flow: row wrap;
+                /* justify-content: center;
+                align-items: center; */
+
+           }
+           #images_horizontales img {width: 25em; height: fit-content;
+            margin: 1em;
+           }
+           
+           #images_verticales {display: flex;
+                display: flex;
+                flex-flow: row wrap;
+                /* justify-content: center;
+                align-items: center; */
+
+           }
+           #images_verticales img {width: fit-content; height: 25em;
+            margin: 1em;
+           }
+
+           
+    
+        </style>
+    </head>
+    <body>
+        <div id="conteneur">
+            <div id="titre">Inspirations</div>
+            
+        </div>
+        <div id="all_images">
+            <div id="images_horizontales">
+                <img src="https://ikoness.files.wordpress.com/2018/06/c_albarran_cabrera__50613_900px.jpg?w=840">
+                <img src="https://fisheyemagazine.fr/wp-content/uploads/2021/03/Albarran-Cabrera-fisheye-5-1200x800.jpg">
+                <img src="https://learn.microsoft.com/fr-fr/windows/mixed-reality/develop/advanced-concepts/images/wide-out-james-turrell.jpg">
+                <img src="https://4.bp.blogspot.com/-GU-ip4B4FIc/V9A8eWFAQkI/AAAAAAAABP4/tMsT2liaIIknvnR_JUmq87QPcmF9HcnUACLcB/s1600/couverture_poles2_clement_vuillier.jpg">
+                <img src="https://konstguiden.com/media/uapdujqt/4-schda0234_repro_webb.jpg">
+            </div>
+            <div id="images_verticales">
+                <img src="https://fisheyemagazine.fr/wp-content/uploads/2023/08/letizia-le-fur-fisheye-1.jpg">
+                <img src="https://fomo-vox.com/wp-content/uploads/2023/11/RothkoGreyBlueu.jpg">
+                <img src="https://i.ebayimg.com/images/g/lU0AAOxyONBSYEiB/s-l1200.webp">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Quetzalcoatl_1.jpg">
+            </div>
+        </div> 
+    </body>
+</html>
